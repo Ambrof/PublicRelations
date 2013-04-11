@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/filtro"
+        android:actionLayout="@layout/filtereventi"
+        android:showAsAction="always|collapseActionView"
+        android:title="@string/filter"/>
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/search"
+        android:showAsAction="always"
+        android:title="@string/search"/>
+    <item
+        android:id="@+id/grafico"
+        android:icon="@drawable/statistics"
+        android:showAsAction="always"
+        android:title="@string/graphic"/>
+    <item
+        android:id="@+id/seleziona"
+        android:icon="@drawable/check"
+        android:showAsAction="always"
+        android:title="@string/select"/>
+
+</menu>

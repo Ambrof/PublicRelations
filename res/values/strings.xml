@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PR</string>
+    <string name="search">Search</string>
+    <string name="filter">Filtro</string>
+    <string name="select">Select</string>
+    <string name="graphic">Graphic</string>
+    <string-array name="Organizators">
+        <item >Notti Studentesche</item>
+    </string-array>
+</resources>
