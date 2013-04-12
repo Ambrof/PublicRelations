@@ -934,6 +934,15 @@ containing a value of this type.
         public static final int statistics=0x7f020072;
     }
     public static final class id {
+        public static final int Button01=0x7f040040;
+        public static final int Button02=0x7f04003d;
+        public static final int Button03=0x7f040043;
+        public static final int Button04=0x7f04003e;
+        public static final int Button05=0x7f04003f;
+        public static final int Button06=0x7f040041;
+        public static final int Button07=0x7f040042;
+        public static final int EditText01=0x7f04003b;
+        public static final int TextView01=0x7f040039;
         public static final int abs__action_bar=0x7f040022;
         public static final int abs__action_bar_container=0x7f040021;
         public static final int abs__action_bar_subtitle=0x7f040011;
@@ -974,20 +983,29 @@ containing a value of this type.
         public static final int abs__title=0x7f04001b;
         public static final int abs__titleDivider=0x7f04001c;
         public static final int abs__up=0x7f04000b;
+        public static final int button1=0x7f04003c;
+        public static final int children=0x7f040033;
         public static final int disableHome=0x7f040009;
+        public static final int editText1=0x7f04003a;
         public static final int edit_query=0x7f040027;
-        public static final int filtro=0x7f040034;
-        public static final int grafico=0x7f040036;
+        public static final int filtro=0x7f040046;
+        public static final int grafico=0x7f040048;
         public static final int homeAsUp=0x7f040006;
         public static final int listMode=0x7f040002;
-        public static final int listeventi=0x7f040033;
+        public static final int listeventi=0x7f040044;
         public static final int normal=0x7f040001;
-        public static final int search=0x7f040035;
-        public static final int seleziona=0x7f040037;
+        public static final int search=0x7f040047;
+        public static final int seleziona=0x7f040049;
         public static final int showCustom=0x7f040008;
         public static final int showHome=0x7f040005;
         public static final int showTitle=0x7f040007;
         public static final int tabMode=0x7f040003;
+        public static final int textView1=0x7f040034;
+        public static final int textView2=0x7f040036;
+        public static final int textView3=0x7f040035;
+        public static final int textView4=0x7f040037;
+        public static final int textView5=0x7f040038;
+        public static final int textView6=0x7f040045;
         public static final int useLogo=0x7f040004;
         public static final int wrap_content=0x7f040000;
     }
@@ -1018,10 +1036,14 @@ containing a value of this type.
         public static final int abs__search_dropdown_item_icons_2line=0x7f030014;
         public static final int abs__search_view=0x7f030015;
         public static final int abs__simple_dropdown_hint=0x7f030016;
-        public static final int filtereventi=0x7f030017;
-        public static final int listeventi=0x7f030018;
-        public static final int sherlock_spinner_dropdown_item=0x7f030019;
-        public static final int sherlock_spinner_item=0x7f03001a;
+        public static final int childreneventi=0x7f030017;
+        public static final int childrenpr=0x7f030018;
+        public static final int filtereventi=0x7f030019;
+        public static final int listeventi=0x7f03001a;
+        public static final int parenteventi=0x7f03001b;
+        public static final int parentpr=0x7f03001c;
+        public static final int sherlock_spinner_dropdown_item=0x7f03001d;
+        public static final int sherlock_spinner_item=0x7f03001e;
     }
     public static final class menu {
         public static final int eventi=0x7f0c0000;
@@ -1073,8 +1095,13 @@ containing a value of this type.
          */
         public static final int abs__shareactionprovider_share_with_application=0x7f090009;
         public static final int app_name=0x7f09000f;
+        public static final int data=0x7f090014;
+        public static final int datevendute=0x7f090015;
+        public static final int dettagliprev=0x7f090018;
         public static final int filter=0x7f090011;
         public static final int graphic=0x7f090013;
+        public static final int lvlpr=0x7f090017;
+        public static final int org=0x7f090016;
         public static final int search=0x7f090010;
         public static final int select=0x7f090012;
     }

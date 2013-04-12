@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/children"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="28dp"
+        android:text="Date" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/TextView01"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignLeft="@+id/EditText01"
+        android:ems="4"
+        android:inputType="number"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/EditText01"
+        android:layout_alignBottom="@+id/EditText01"
+        android:layout_toLeftOf="@+id/editText1"
+        android:text="+1"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Button02"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/EditText01"
+        android:layout_alignBottom="@+id/EditText01"
+        android:layout_toRightOf="@+id/EditText01"
+        android:text="+1"
+        android:textSize="10sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="25dp"
+        android:text="Vendute" />
+
+    <Button
+        android:id="@+id/Button04"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignLeft="@+id/button1"
+        android:text="+1"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Button05"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/Button04"
+        android:layout_alignBottom="@+id/Button04"
+        android:layout_alignLeft="@+id/Button01"
+        android:text="+1"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Button06"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignLeft="@+id/Button02"
+        android:layout_alignTop="@+id/TextView01"
+        android:text="+1"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Button07"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/Button06"
+        android:layout_alignBottom="@+id/Button06"
+        android:layout_alignLeft="@+id/Button03"
+        android:text="+1"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Button03"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/Button02"
+        android:layout_alignBottom="@+id/Button02"
+        android:layout_toRightOf="@+id/Button02"
+        android:text="+1"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_toLeftOf="@+id/button1"
+        android:text="+1"
+        android:textSize="10sp" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView1"
+        android:layout_alignBottom="@+id/textView1"
+        android:layout_marginLeft="84dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:ems="4"
+        android:inputType="number"
+        android:textSize="15sp" />
+
+</RelativeLayout>

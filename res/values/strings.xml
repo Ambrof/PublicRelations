@@ -6,7 +6,15 @@
     <string name="filter">Filtro</string>
     <string name="select">Select</string>
     <string name="graphic">Graphic</string>
+    <string name="data">Data</string>
+    <string name="datevendute">Data</string>
+    <string name="org">Organizzazione</string>
+    <string name="lvlpr">Livello PR</string>
+    <string name="dettagliprev">Dettagli prevendite..</string>
+
     <string-array name="Organizators">
-        <item >Notti Studentesche</item>
+        <item>Notti Studentesche</item>
+        <item>Boom</item>
     </string-array>
+
 </resources>
